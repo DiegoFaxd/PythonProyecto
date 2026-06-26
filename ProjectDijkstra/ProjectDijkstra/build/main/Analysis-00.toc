@@ -1,0 +1,1645 @@
+(['C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\main.py'],
+ ['C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra'],
+ [],
+ [('C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\__pyinstaller',
+   0),
+  ('C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
+   -1000),
+  ('C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib',
+   -1000)],
+ {},
+ [],
+ [],
+ False,
+ {},
+ 0,
+ [],
+ [('recursos\\fondos\\fondo_juego.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\fondos\\fondo_juego.png',
+   'DATA'),
+  ('recursos\\fuentes\\PressStart2P-Regular.ttf',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\fuentes\\PressStart2P-Regular.ttf',
+   'DATA'),
+  ('recursos\\iconos\\icono.ico',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\iconos\\icono.ico',
+   'DATA'),
+  ('recursos\\sonidos\\gameover.wav',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sonidos\\gameover.wav',
+   'DATA'),
+  ('recursos\\sonidos\\musica.mp3',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sonidos\\musica.mp3',
+   'DATA'),
+  ('recursos\\sonidos\\pasos.wav',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sonidos\\pasos.wav',
+   'DATA'),
+  ('recursos\\sprites\\Jugador.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\Jugador.png',
+   'DATA'),
+  ('recursos\\sprites\\muro.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\muro.png',
+   'DATA'),
+  ('recursos\\sprites\\piso.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\piso.png',
+   'DATA'),
+  ('recursos\\sprites\\zombi.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\zombi.png',
+   'DATA')],
+ '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\main.py',
+   'PYSOURCE')],
+ [('zipfile',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pathlib.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\typing.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\token.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ast.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('utils',
+   'C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\utils.py',
+   'PYMODULE'),
+  ('agente',
+   'C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\agente.py',
+   'PYMODULE'),
+  ('dijkstra',
+   'C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\dijkstra.py',
+   'PYMODULE'),
+  ('mapa',
+   'C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\mapa.py',
+   'PYMODULE'),
+  ('interfaz',
+   'C:\\Users\\Rodrigo Aguirre\\Desktop\\ProjectDijkstra\\interfaz.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\signal.py',
+   'PYMODULE'),
+  ('pygame',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\__init__.py',
+   'PYMODULE'),
+  ('pygame.colordict',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\colordict.py',
+   'PYMODULE'),
+  ('pygame.macosx',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\macosx.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pygame.pkgdata',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\pkgdata.py',
+   'PYMODULE'),
+  ('pygame.fastevent',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\fastevent.py',
+   'PYMODULE'),
+  ('pygame.sndarray',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\sndarray.py',
+   'PYMODULE'),
+  ('pygame.surfarray',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\surfarray.py',
+   'PYMODULE'),
+  ('pygame.sysfont',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\sysfont.py',
+   'PYMODULE'),
+  ('pygame.ftfont',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\ftfont.py',
+   'PYMODULE'),
+  ('pygame.threads',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\threads\\__init__.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\queue.py',
+   'PYMODULE'),
+  ('pygame.sprite',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\sprite.py',
+   'PYMODULE'),
+  ('pygame.cursors',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\cursors.py',
+   'PYMODULE'),
+  ('pygame.version',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\version.py',
+   'PYMODULE')],
+ [('python312.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
+   'BINARY'),
+  ('libtiff-5.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libtiff-5.dll',
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('zlib1.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('SDL2.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('libpng16-16.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('libopusfile-0.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libopusfile-0.dll',
+   'BINARY'),
+  ('libjpeg-9.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libopus-0.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('libwebp-7.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libwebp-7.dll',
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('freetype.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('libogg-0.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('libmodplug-1.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libmodplug-1.dll',
+   'BINARY'),
+  ('portmidi.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\portmidi.dll',
+   'BINARY'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('pygame\\imageext.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\imageext.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\scrap.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\scrap.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\mixer.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer_music.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\mixer_music.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\font.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\font.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\_freetype.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\_freetype.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\transform.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\transform.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\time.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\time.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelarray.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\pixelarray.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mask.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\mask.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surface.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\surface.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelcopy.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\pixelcopy.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('pygame\\mouse.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\mouse.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\key.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\key.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\joystick.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\joystick.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\image.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\image.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\event.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\event.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\draw.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\draw.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\display.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\display.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\math.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\math.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\bufferproxy.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\bufferproxy.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\color.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\color.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surflock.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\surflock.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rwobject.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\rwobject.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rect.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\rect.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\constants.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\constants.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\base.cp312-win_amd64.pyd',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\base.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('pygame\\zlib1.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('pygame\\libjpeg-9.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('pygame\\SDL2.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('pygame\\libopus-0.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('pygame\\libogg-0.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('pygame\\SDL2_image.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('pygame\\libpng16-16.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('pygame\\SDL2_mixer.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('pygame\\SDL2_ttf.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('pygame\\freetype.dll',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY')],
+ [],
+ [],
+ [('recursos\\fondos\\fondo_juego.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\fondos\\fondo_juego.png',
+   'DATA'),
+  ('recursos\\fuentes\\PressStart2P-Regular.ttf',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\fuentes\\PressStart2P-Regular.ttf',
+   'DATA'),
+  ('recursos\\iconos\\icono.ico',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\iconos\\icono.ico',
+   'DATA'),
+  ('recursos\\sonidos\\gameover.wav',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sonidos\\gameover.wav',
+   'DATA'),
+  ('recursos\\sonidos\\musica.mp3',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sonidos\\musica.mp3',
+   'DATA'),
+  ('recursos\\sonidos\\pasos.wav',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sonidos\\pasos.wav',
+   'DATA'),
+  ('recursos\\sprites\\Jugador.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\Jugador.png',
+   'DATA'),
+  ('recursos\\sprites\\muro.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\muro.png',
+   'DATA'),
+  ('recursos\\sprites\\piso.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\piso.png',
+   'DATA'),
+  ('recursos\\sprites\\zombi.png',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\recursos\\sprites\\zombi.png',
+   'DATA'),
+  ('pygame\\freesansbold.ttf',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\freesansbold.ttf',
+   'DATA'),
+  ('pygame\\pygame_icon.bmp',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pygame\\pygame_icon.bmp',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\Desktop\\ProjectDijkstra\\build\\main\\base_library.zip',
+   'DATA')],
+ [('encodings.zlib_codec',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\zlib_codec.py',
+   'PYMODULE'),
+  ('encodings.uu_codec',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\uu_codec.py',
+   'PYMODULE'),
+  ('encodings.utf_8_sig',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_8_sig.py',
+   'PYMODULE'),
+  ('encodings.utf_8',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_8.py',
+   'PYMODULE'),
+  ('encodings.utf_7',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_7.py',
+   'PYMODULE'),
+  ('encodings.utf_32_le',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_32_le.py',
+   'PYMODULE'),
+  ('encodings.utf_32_be',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_32_be.py',
+   'PYMODULE'),
+  ('encodings.utf_32',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_32.py',
+   'PYMODULE'),
+  ('encodings.utf_16_le',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_16_le.py',
+   'PYMODULE'),
+  ('encodings.utf_16_be',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_16_be.py',
+   'PYMODULE'),
+  ('encodings.utf_16',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\utf_16.py',
+   'PYMODULE'),
+  ('encodings.unicode_escape',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\unicode_escape.py',
+   'PYMODULE'),
+  ('encodings.undefined',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\undefined.py',
+   'PYMODULE'),
+  ('encodings.tis_620',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\tis_620.py',
+   'PYMODULE'),
+  ('encodings.shift_jisx0213',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\shift_jisx0213.py',
+   'PYMODULE'),
+  ('encodings.shift_jis_2004',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\shift_jis_2004.py',
+   'PYMODULE'),
+  ('encodings.shift_jis',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\shift_jis.py',
+   'PYMODULE'),
+  ('encodings.rot_13',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\rot_13.py',
+   'PYMODULE'),
+  ('encodings.raw_unicode_escape',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\raw_unicode_escape.py',
+   'PYMODULE'),
+  ('encodings.quopri_codec',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\quopri_codec.py',
+   'PYMODULE'),
+  ('encodings.punycode',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\punycode.py',
+   'PYMODULE'),
+  ('encodings.ptcp154',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\ptcp154.py',
+   'PYMODULE'),
+  ('encodings.palmos',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\palmos.py',
+   'PYMODULE'),
+  ('encodings.oem',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\oem.py',
+   'PYMODULE'),
+  ('encodings.mbcs',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mbcs.py',
+   'PYMODULE'),
+  ('encodings.mac_turkish',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_turkish.py',
+   'PYMODULE'),
+  ('encodings.mac_romanian',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_romanian.py',
+   'PYMODULE'),
+  ('encodings.mac_roman',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_roman.py',
+   'PYMODULE'),
+  ('encodings.mac_latin2',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_latin2.py',
+   'PYMODULE'),
+  ('encodings.mac_iceland',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_iceland.py',
+   'PYMODULE'),
+  ('encodings.mac_greek',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_greek.py',
+   'PYMODULE'),
+  ('encodings.mac_farsi',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_farsi.py',
+   'PYMODULE'),
+  ('encodings.mac_cyrillic',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_cyrillic.py',
+   'PYMODULE'),
+  ('encodings.mac_croatian',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_croatian.py',
+   'PYMODULE'),
+  ('encodings.mac_arabic',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\mac_arabic.py',
+   'PYMODULE'),
+  ('encodings.latin_1',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\latin_1.py',
+   'PYMODULE'),
+  ('encodings.kz1048',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\kz1048.py',
+   'PYMODULE'),
+  ('encodings.koi8_u',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\koi8_u.py',
+   'PYMODULE'),
+  ('encodings.koi8_t',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\koi8_t.py',
+   'PYMODULE'),
+  ('encodings.koi8_r',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\koi8_r.py',
+   'PYMODULE'),
+  ('encodings.johab',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\johab.py',
+   'PYMODULE'),
+  ('encodings.iso8859_9',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_9.py',
+   'PYMODULE'),
+  ('encodings.iso8859_8',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_8.py',
+   'PYMODULE'),
+  ('encodings.iso8859_7',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_7.py',
+   'PYMODULE'),
+  ('encodings.iso8859_6',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_6.py',
+   'PYMODULE'),
+  ('encodings.iso8859_5',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_5.py',
+   'PYMODULE'),
+  ('encodings.iso8859_4',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_4.py',
+   'PYMODULE'),
+  ('encodings.iso8859_3',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_3.py',
+   'PYMODULE'),
+  ('encodings.iso8859_2',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_2.py',
+   'PYMODULE'),
+  ('encodings.iso8859_16',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_16.py',
+   'PYMODULE'),
+  ('encodings.iso8859_15',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_15.py',
+   'PYMODULE'),
+  ('encodings.iso8859_14',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_14.py',
+   'PYMODULE'),
+  ('encodings.iso8859_13',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_13.py',
+   'PYMODULE'),
+  ('encodings.iso8859_11',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_11.py',
+   'PYMODULE'),
+  ('encodings.iso8859_10',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_10.py',
+   'PYMODULE'),
+  ('encodings.iso8859_1',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso8859_1.py',
+   'PYMODULE'),
+  ('encodings.iso2022_kr',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_kr.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_ext',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_jp_ext.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_3',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_jp_3.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_2004',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_jp_2004.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_2',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_jp_2.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp_1',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_jp_1.py',
+   'PYMODULE'),
+  ('encodings.iso2022_jp',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\iso2022_jp.py',
+   'PYMODULE'),
+  ('encodings.idna',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\idna.py',
+   'PYMODULE'),
+  ('encodings.hz',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\hz.py',
+   'PYMODULE'),
+  ('encodings.hp_roman8',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\hp_roman8.py',
+   'PYMODULE'),
+  ('encodings.hex_codec',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\hex_codec.py',
+   'PYMODULE'),
+  ('encodings.gbk',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\gbk.py',
+   'PYMODULE'),
+  ('encodings.gb2312',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\gb2312.py',
+   'PYMODULE'),
+  ('encodings.gb18030',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\gb18030.py',
+   'PYMODULE'),
+  ('encodings.euc_kr',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\euc_kr.py',
+   'PYMODULE'),
+  ('encodings.euc_jp',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\euc_jp.py',
+   'PYMODULE'),
+  ('encodings.euc_jisx0213',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\euc_jisx0213.py',
+   'PYMODULE'),
+  ('encodings.euc_jis_2004',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\euc_jis_2004.py',
+   'PYMODULE'),
+  ('encodings.cp950',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp950.py',
+   'PYMODULE'),
+  ('encodings.cp949',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp949.py',
+   'PYMODULE'),
+  ('encodings.cp932',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp932.py',
+   'PYMODULE'),
+  ('encodings.cp875',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp875.py',
+   'PYMODULE'),
+  ('encodings.cp874',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp874.py',
+   'PYMODULE'),
+  ('encodings.cp869',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp869.py',
+   'PYMODULE'),
+  ('encodings.cp866',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp866.py',
+   'PYMODULE'),
+  ('encodings.cp865',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp865.py',
+   'PYMODULE'),
+  ('encodings.cp864',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp864.py',
+   'PYMODULE'),
+  ('encodings.cp863',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp863.py',
+   'PYMODULE'),
+  ('encodings.cp862',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp862.py',
+   'PYMODULE'),
+  ('encodings.cp861',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp861.py',
+   'PYMODULE'),
+  ('encodings.cp860',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp860.py',
+   'PYMODULE'),
+  ('encodings.cp858',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp858.py',
+   'PYMODULE'),
+  ('encodings.cp857',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp857.py',
+   'PYMODULE'),
+  ('encodings.cp856',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp856.py',
+   'PYMODULE'),
+  ('encodings.cp855',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp855.py',
+   'PYMODULE'),
+  ('encodings.cp852',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp852.py',
+   'PYMODULE'),
+  ('encodings.cp850',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp850.py',
+   'PYMODULE'),
+  ('encodings.cp775',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp775.py',
+   'PYMODULE'),
+  ('encodings.cp737',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp737.py',
+   'PYMODULE'),
+  ('encodings.cp720',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp720.py',
+   'PYMODULE'),
+  ('encodings.cp500',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp500.py',
+   'PYMODULE'),
+  ('encodings.cp437',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp437.py',
+   'PYMODULE'),
+  ('encodings.cp424',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp424.py',
+   'PYMODULE'),
+  ('encodings.cp273',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp273.py',
+   'PYMODULE'),
+  ('encodings.cp1258',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1258.py',
+   'PYMODULE'),
+  ('encodings.cp1257',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1257.py',
+   'PYMODULE'),
+  ('encodings.cp1256',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1256.py',
+   'PYMODULE'),
+  ('encodings.cp1255',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1255.py',
+   'PYMODULE'),
+  ('encodings.cp1254',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1254.py',
+   'PYMODULE'),
+  ('encodings.cp1253',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1253.py',
+   'PYMODULE'),
+  ('encodings.cp1252',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py',
+   'PYMODULE'),
+  ('encodings.cp1251',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1251.py',
+   'PYMODULE'),
+  ('encodings.cp1250',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1250.py',
+   'PYMODULE'),
+  ('encodings.cp1140',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1140.py',
+   'PYMODULE'),
+  ('encodings.cp1125',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1125.py',
+   'PYMODULE'),
+  ('encodings.cp1026',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1026.py',
+   'PYMODULE'),
+  ('encodings.cp1006',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1006.py',
+   'PYMODULE'),
+  ('encodings.cp037',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp037.py',
+   'PYMODULE'),
+  ('encodings.charmap',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\charmap.py',
+   'PYMODULE'),
+  ('encodings.bz2_codec',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\bz2_codec.py',
+   'PYMODULE'),
+  ('encodings.big5hkscs',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\big5hkscs.py',
+   'PYMODULE'),
+  ('encodings.big5',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\big5.py',
+   'PYMODULE'),
+  ('encodings.base64_codec',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\base64_codec.py',
+   'PYMODULE'),
+  ('encodings.ascii',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\ascii.py',
+   'PYMODULE'),
+  ('encodings.aliases',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\aliases.py',
+   'PYMODULE'),
+  ('encodings',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\__init__.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\locale.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\functools.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\abc.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\io.py',
+   'PYMODULE'),
+  ('re._parser',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_parser.py',
+   'PYMODULE'),
+  ('re._constants',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\re\\__init__.py',
+   'PYMODULE'),
+  ('linecache',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\types.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('operator',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\operator.py',
+   'PYMODULE'),
+  ('reprlib',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\reprlib.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\stat.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\enum.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('collections.abc',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\abc.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\Rodrigo '
+   'Aguirre\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\os.py',
+   'PYMODULE')])
