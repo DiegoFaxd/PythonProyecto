@@ -72,7 +72,7 @@ def ejecutar_juego(pantalla, reloj):
             img_jugador = pygame.transform.scale(img_jugador, (50, 50))
         except: pass
 
-    ruta_pasos = os.path.join(RECURSOS_DIR, "sonidos", "pasos.wav")
+    ruta_pasos = os.path.join(RECURSOS_DIR, "sonidos", "pasos2.mp3")
     ruta_gameover = os.path.join(RECURSOS_DIR, "sonidos", "gameover.wav")
 
     snd_pasos = None

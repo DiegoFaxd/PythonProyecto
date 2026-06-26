@@ -24,7 +24,7 @@ class Mapa:
             [1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1],
             [1,0,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1],
             [1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
-            [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1],
+            [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1],    
             [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
             [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
         ]
@@ -42,14 +42,14 @@ class Mapa:
         self.img_fondo = None
         
         # 1. CARGAR Y ADAPTAR SPRITES AL NUEVO TAMAÑO
-        ruta_muro = os.path.join(base_dir, "recursos", "sprites", "muro.png")
+        ruta_muro = os.path.join(base_dir, "recursos", "sprites", "muro2.jpg")
         if os.path.exists(ruta_muro):
             try:
                 self.img_muro = pygame.image.load(ruta_muro).convert_alpha()
                 self.img_muro = pygame.transform.scale(self.img_muro, (TAM_CASILLA, TAM_CASILLA))
             except: pass
                 
-        ruta_piso = os.path.join(base_dir, "recursos", "sprites", "piso.png")
+        ruta_piso = os.path.join(base_dir, "recursos", "sprites", "pasto.png")
         if os.path.exists(ruta_piso):
             try:
                 self.img_piso = pygame.image.load(ruta_piso).convert_alpha()
