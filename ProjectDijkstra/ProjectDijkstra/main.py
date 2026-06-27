@@ -6,9 +6,6 @@ from interfaz import MenuPrincipal, RUTA_FUENTE, Boton
 from mapa import Mapa
 from agente import Agente
 
-import os
-import sys
-
 from utils import resource_path
     
 
@@ -58,11 +55,18 @@ def main():
                 elif resultado == "REINTENTAR":
                     # No hace nada, simplemente deja que el bucle reinicie ejecutar_juego()
                     pass
+                elif resultado == "JUGAR DENUEVO":
+                    # No hace nada, simplemente deja que el bucle reinicie ejecutar_juego()
+                    pass
 
 def ejecutar_juego(pantalla, reloj):
     mapa = Mapa()
     pos_jugador = [1, 1] 
     zombi = Agente(mapa, (7, 13))
+
+    llaves = list(mapa.llaves)
+    pos_salida = mapa.pos_salida
+    llaves_totales = len(llaves)
 
     ruta_jugador = os.path.join(RECURSOS_DIR, "sprites", "Jugador.png")
     img_jugador = None
@@ -91,19 +95,28 @@ def ejecutar_juego(pantalla, reloj):
 
     if os.path.exists(RUTA_FUENTE):
         fuente_go = pygame.font.Font(RUTA_FUENTE, 48)
+        fuente_exit = pygame.font.Font(RUTA_FUENTE, 10)
+        fuente_hud = pygame.font.Font(RUTA_FUENTE, 24)
     else:
         fuente_go = pygame.font.SysFont("Arial", 64, bold=True)
+        fuente_exit = pygame.font.SysFont("Arial", 20, bold=True)
+        fuente_hud = pygame.font.SysFont("Arial", 64, bold=True)
 
 
     boton_reintentar = Boton(ANCHO//2 - 150, ALTO//2 + 30, 300, 60, "REINTENTAR")
     boton_menu = Boton(ANCHO//2 - 150, ALTO//2 + 110, 300, 60, "VOLVER AL MENU")
+    boton_jugar_denuevo = Boton(ANCHO//2 - 150, ALTO//2 + 30, 300, 60, "JUGAR DENUEVO")
 
     ejecutando = True
     estado_gameover = False
+    estado_victoria = False
+
+    
 
     while ejecutando:
         reloj.tick(FPS)
         tiempo_actual = pygame.time.get_ticks()
+        pos_tuple = tuple(pos_jugador)
 
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
@@ -113,6 +126,12 @@ def ejecutar_juego(pantalla, reloj):
             if estado_gameover:
                 if boton_reintentar.clic(evento):
                     return "REINTENTAR"
+                if boton_menu.clic(evento):
+                    return "MENU"
+            
+            if estado_victoria:
+                if boton_jugar_denuevo.clic(evento):
+                    return "JUGAR DENUEVO"
                 if boton_menu.clic(evento):
                     return "MENU"
 
@@ -129,18 +148,48 @@ def ejecutar_juego(pantalla, reloj):
                     if snd_pasos:
                         snd_pasos.play()
 
-        if not estado_gameover:
+        if not estado_gameover and not estado_victoria:
             if tiempo_actual - ultimo_movimiento_zombi > COOLDOWN_ZOMBI:
-                zombi.actualizar(tuple(pos_jugador))
+                zombi.actualizar(pos_tuple)
                 ultimo_movimiento_zombi = tiempo_actual
 
-            if zombi.obtener_posicion() == tuple(pos_jugador):
+            if zombi.obtener_posicion() == pos_tuple:
                 estado_gameover = True
                 pygame.mixer.music.stop() 
                 if snd_gameover:
-                    snd_gameover.play() 
+                    snd_gameover.play()
+
+            if pos_tuple in llaves:
+                llaves.remove(pos_tuple)
+            
+            if pos_tuple == pos_salida and len(llaves) == 0:
+                estado_victoria = True 
+                pygame.mixer.music.stop()
 
         mapa.dibujar(pantalla)
+
+        # Dibujar salida
+        sx = pos_salida[1] * 50
+        sy = pos_salida[0] * 50
+        pygame.draw.rect(pantalla, (0, 200, 0), (sx, sy, 50, 50))         # verde
+        texto_salida = fuente_exit.render("EXIT", False, (255, 255, 255))
+        pantalla.blit(texto_salida, (sx + 4, sy + 16))
+
+        # Dibujar llaves restantes
+        for (lf, lc) in llaves:
+            lx = lc * 50
+            ly = lf * 50
+            pygame.draw.circle(pantalla, (255, 215, 0), (lx + 25, ly + 25), 14)  # amarillo
+            pygame.draw.circle(pantalla, (180, 140, 0), (lx + 25, ly + 25), 14, 3)  # borde
+        
+        texto_llaves = fuente_hud.render(f"Llaves: {llaves_totales - len(llaves)}/{llaves_totales}", False, (255, 215, 0))
+
+        pantalla.blit(texto_llaves, (10, 10))
+
+        # Mensaje si intenta salir sin todas las llaves
+        if pos_tuple == pos_salida and len(llaves) > 0:
+            aviso = fuente_hud.render("¡No recolectaste todas las llaves!", False, (255, 80, 80))
+            pantalla.blit(aviso, (ANCHO//2 - 180, 20))
 
         # Aquí va el rastro visual de la ruta del zombi
         ruta_zombi = zombi.obtener_ruta()
@@ -175,6 +224,20 @@ def ejecutar_juego(pantalla, reloj):
 
             boton_reintentar.dibujar(pantalla)
             boton_menu.dibujar(pantalla)
+
+        # Al dibujar:
+        if estado_victoria:
+            superficie_oscura = pygame.Surface((ANCHO, ALTO), pygame.SRCALPHA)
+            superficie_oscura.fill((0, 0, 0, 160))
+            pantalla.blit(superficie_oscura, (0, 0))
+
+            texto_win = fuente_go.render("¡SOBREVIVISTE!", False, (0, 255, 100))
+            pantalla.blit(texto_win, texto_win.get_rect(center=(ANCHO//2, ALTO//2 - 50)))
+
+            boton_jugar_denuevo.dibujar(pantalla)
+            boton_menu.dibujar(pantalla)
+        
+
 
         pygame.display.flip()
 

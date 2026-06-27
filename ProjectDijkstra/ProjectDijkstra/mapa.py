@@ -1,7 +1,8 @@
 import pygame
 import os
+import random
 
-# ¡Casillas más grandes! Cambiado de 40 a 50 para que todo se vea más imponente
+
 TAM_CASILLA = 50 
 COLOR_MURO = (40, 40, 40)
 COLOR_CAMINO = (210, 210, 210)
@@ -18,13 +19,13 @@ class Mapa:
             [1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1],
             [1,0,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1],
             [1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1],
-            [1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1],
+            [1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1],
             [1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1],
-            [1,0,1,0,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,0,1,1,1,0,1],
-            [1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1],
-            [1,0,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1],
+            [1,0,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,1],
+            [1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1],
+            [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1],
             [1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
-            [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1],    
+            [1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1],    
             [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
             [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
         ]
@@ -40,6 +41,15 @@ class Mapa:
         self.img_muro = None
         self.img_piso = None
         self.img_fondo = None
+
+        #LLAVES
+        self.pos_salida = (15, 23)  # Posición de la salida
+        
+        self.llaves, self.pos_salida = self.generar_llaves_y_salida(
+            cantidad_llaves=3,
+            pos_jugador=(1, 1),
+            pos_zombi=(7, 13)
+        )
         
         # 1. CARGAR Y ADAPTAR SPRITES AL NUEVO TAMAÑO
         ruta_muro = os.path.join(base_dir, "recursos", "sprites", "muro2.jpg")
@@ -110,3 +120,44 @@ class Mapa:
             if self.es_camino(nf, nc):
                 lista.append((nf, nc))
         return lista
+    
+
+    def generar_llaves_y_salida(self, cantidad_llaves, pos_jugador, pos_zombi):
+        excluir_base = [pos_jugador, pos_zombi]
+
+        celdas_libres = [
+            (f, c)
+            for f in range(self.filas)
+            for c in range(self.columnas)
+            if self.matriz[f][c] == 0 and (f, c) not in excluir_base
+        ]
+
+        # Intentar hasta encontrar una combinación alcanzable
+        for _ in range(200):
+            seleccion = random.sample(celdas_libres, cantidad_llaves + 1)
+            llaves = seleccion[:cantidad_llaves]
+            salida = seleccion[cantidad_llaves]
+
+            # Validar que todas las celdas sean alcanzables desde el jugador con BFS
+            puntos_a_validar = llaves + [salida]
+            if all(self.hay_camino(pos_jugador, p) for p in puntos_a_validar):
+                return llaves, salida
+
+        # Fallback: posiciones fijas seguras si no encuentra combinación válida
+        return [(1, 5), (9, 11), (15, 5)], (15, 23)
+
+    def hay_camino(self, origen, destino):
+        """BFS"""
+        if origen == destino:
+            return True
+        visitados = {origen}
+        cola = [origen]
+        while cola:
+            actual = cola.pop(0)
+            for vecino in self.vecinos(*actual):
+                if vecino == destino:
+                    return True
+                if vecino not in visitados:
+                    visitados.add(vecino)
+                    cola.append(vecino)
+        return False
