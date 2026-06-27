@@ -53,9 +53,13 @@ def main():
                     break # Rompe el bucle de partidas y vuelve a mostrar el menú
                 
                 elif resultado == "REINTENTAR":
+                    if os.path.exists(ruta_musica):
+                        pygame.mixer.music.play(-1)
                     # No hace nada, simplemente deja que el bucle reinicie ejecutar_juego()
                     pass
                 elif resultado == "JUGAR DENUEVO":
+                    if os.path.exists(ruta_musica):
+                        pygame.mixer.music.play(-1)
                     # No hace nada, simplemente deja que el bucle reinicie ejecutar_juego()
                     pass
 
@@ -76,11 +80,22 @@ def ejecutar_juego(pantalla, reloj):
             img_jugador = pygame.transform.scale(img_jugador, (50, 50))
         except: pass
 
+    ruta_llave = os.path.join(RECURSOS_DIR, "sprites", "llave.png")
+    img_llave = None
+    if os.path.exists(ruta_llave):
+        try:
+            img_llave = pygame.image.load(ruta_llave).convert_alpha()
+            img_llave = pygame.transform.scale(img_llave, (30, 30))
+        except: pass
+
+    ruta_gamewin = os.path.join(RECURSOS_DIR, "sonidos", "victoria.wav")
     ruta_pasos = os.path.join(RECURSOS_DIR, "sonidos", "pasos2.mp3")
     ruta_gameover = os.path.join(RECURSOS_DIR, "sonidos", "gameover.wav")
 
     snd_pasos = None
     snd_gameover = None
+    snd_gamewin = None
+
     try:
         if os.path.exists(ruta_pasos):
             snd_pasos = pygame.mixer.Sound(ruta_pasos)
@@ -88,6 +103,9 @@ def ejecutar_juego(pantalla, reloj):
         if os.path.exists(ruta_gameover):
             snd_gameover = pygame.mixer.Sound(ruta_gameover)
             snd_gameover.set_volume(1)
+        if os.path.exists(ruta_gamewin):
+            snd_gamewin = pygame.mixer.Sound(ruta_gamewin)
+            snd_gamewin.set_volume(1)
     except: pass
 
     ultimo_movimiento_zombi = pygame.time.get_ticks()
@@ -110,8 +128,6 @@ def ejecutar_juego(pantalla, reloj):
     ejecutando = True
     estado_gameover = False
     estado_victoria = False
-
-    
 
     while ejecutando:
         reloj.tick(FPS)
@@ -165,6 +181,8 @@ def ejecutar_juego(pantalla, reloj):
             if pos_tuple == pos_salida and len(llaves) == 0:
                 estado_victoria = True 
                 pygame.mixer.music.stop()
+                if snd_gamewin:
+                    snd_gamewin.play()
 
         mapa.dibujar(pantalla)
 
@@ -179,8 +197,11 @@ def ejecutar_juego(pantalla, reloj):
         for (lf, lc) in llaves:
             lx = lc * 50
             ly = lf * 50
-            pygame.draw.circle(pantalla, (255, 215, 0), (lx + 25, ly + 25), 14)  # amarillo
-            pygame.draw.circle(pantalla, (180, 140, 0), (lx + 25, ly + 25), 14, 3)  # borde
+            if img_llave:
+                pantalla.blit(img_llave, (lx + 10, ly + 10))
+            else:
+                pygame.draw.circle(pantalla, (255, 215, 0), (lx + 25, ly + 25), 14)  # amarillo
+                pygame.draw.circle(pantalla, (180, 140, 0), (lx + 25, ly + 25), 14, 3)  # borde
         
         texto_llaves = fuente_hud.render(f"Llaves: {llaves_totales - len(llaves)}/{llaves_totales}", False, (255, 215, 0))
 

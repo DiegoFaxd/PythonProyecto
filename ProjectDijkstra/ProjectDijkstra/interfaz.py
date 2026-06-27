@@ -52,16 +52,16 @@ class MenuPrincipal:
     def __init__(self, pantalla):
         self.pantalla = pantalla
         
-        # ¡Corregido! Centrado automático de botones en base al nuevo ancho horizontal (1250)
+        #Centrado automático de botones en base al nuevo ancho horizontal (1250)
         ancho_btn = 200
         alto_btn = 60
         x_centrado = (ANCHO - ancho_btn) // 2
         
-        # ¡Corregido! Alturas ajustadas para que no se vean muy arriba en la pantalla gigante de 850
+        # Alturas ajustadas para que no se vean muy arriba en la pantalla gigante de 850
         self.boton_jugar = Boton(x_centrado, 360, ancho_btn, alto_btn, "JUGAR")
         self.boton_salir = Boton(x_centrado, 460, ancho_btn, alto_btn, "SALIR")
         
-        # ¡Corregido! Ruta dinámica para el fondo
+        # Ruta dinámica para el fondo
         ruta_fondo = os.path.join(RECURSOS_DIR, "fondos", "fondo_juego.png")
         self.img_fondo = None
         if os.path.exists(ruta_fondo):
@@ -80,14 +80,14 @@ class MenuPrincipal:
         titulo_sombra = FUENTE_TITULO.render("Zombie IA - Dijkstra", False, (0, 0, 0))
         titulo = FUENTE_TITULO.render("Zombie IA - Dijkstra", False, COLOR_TEXTO)
 
-        # ¡Corregido! Título centrado y reposicionado proporcionalmente en vertical
+        # Título centrado y reposicionado proporcionalmente en vertical
         self.pantalla.blit(titulo_sombra, titulo_sombra.get_rect(center=(ANCHO//2 + 3, 183)))
         self.pantalla.blit(titulo, titulo.get_rect(center=(ANCHO//2, 180)))
 
         self.boton_jugar.dibujar(self.pantalla)
         self.boton_salir.dibujar(self.pantalla)
 
-        # ¡Corregido! El texto informativo se adapta dinámicamente al nuevo ALTO de 850 (ya no queda flotando)
+        # El texto informativo se adapta dinámicamente al nuevo ALTO de 850 (ya no queda flotando)
         texto = FUENTE_INFO.render("Proyecto de Inteligencia Artificial", False, COLOR_TEXTO)
         self.pantalla.blit(texto, (20, ALTO - 40))
         pygame.display.flip()
