@@ -47,20 +47,17 @@ def main():
                 resultado = ejecutar_juego(pantalla, reloj)
                 
                 if resultado == "MENU":
-                    # Si vuelve al menú, reanudamos la música de fondo
                     if os.path.exists(ruta_musica):
                         pygame.mixer.music.play(-1)
-                    break # Rompe el bucle de partidas y vuelve a mostrar el menú
+                    break
                 
                 elif resultado == "REINTENTAR":
                     if os.path.exists(ruta_musica):
                         pygame.mixer.music.play(-1)
-                    # No hace nada, simplemente deja que el bucle reinicie ejecutar_juego()
                     pass
                 elif resultado == "JUGAR DENUEVO":
                     if os.path.exists(ruta_musica):
                         pygame.mixer.music.play(-1)
-                    # No hace nada, simplemente deja que el bucle reinicie ejecutar_juego()
                     pass
 
 def ejecutar_juego(pantalla, reloj):
@@ -198,8 +195,8 @@ def ejecutar_juego(pantalla, reloj):
             if img_llave:
                 pantalla.blit(img_llave, (lx + 10, ly + 10))
             else:
-                pygame.draw.circle(pantalla, (255, 215, 0), (lx + 25, ly + 25), 14)  # amarillo
-                pygame.draw.circle(pantalla, (180, 140, 0), (lx + 25, ly + 25), 14, 3)  # borde
+                pygame.draw.circle(pantalla, (255, 215, 0), (lx + 25, ly + 25), 14)  
+                pygame.draw.circle(pantalla, (180, 140, 0), (lx + 25, ly + 25), 14, 3)  
         
         texto_llaves = fuente_hud.render(f"Llaves: {llaves_totales - len(llaves)}/{llaves_totales}", False, (255, 215, 0))
 
@@ -213,10 +210,10 @@ def ejecutar_juego(pantalla, reloj):
         if len(ruta_zombi) > 1:
             superficie_ruta = pygame.Surface((ANCHO, ALTO), pygame.SRCALPHA)
             
-            for f, c in ruta_zombi[1:-1]: # Omitimos pintar sobre el jugador y el zombi
+            for f, c in ruta_zombi[1:-1]: 
                 x = c * 50
                 y = f * 50
-                # Pintamos un cuadrado rojo con mucha transparencia (60 sobre 255)
+             
                 pygame.draw.rect(superficie_ruta, (255, 0, 0, 60), (x, y, 50, 50))
                 
             pantalla.blit(superficie_ruta, (0, 0))
@@ -231,10 +228,9 @@ def ejecutar_juego(pantalla, reloj):
 
         if estado_gameover:
             superficie_oscura = pygame.Surface((ANCHO, ALTO), pygame.SRCALPHA)
-            superficie_oscura.fill((0, 0, 0, 160)) # El 160 es la transparencia
+            superficie_oscura.fill((0, 0, 0, 160)) 
             pantalla.blit(superficie_oscura, (0, 0))
 
-            # Dibujamos el texto más arriba para hacer espacio a los botones
             texto_go = fuente_go.render("GAME OVER", False, (255, 0, 0))
             pantalla.blit(texto_go, texto_go.get_rect(center=(ANCHO//2, ALTO//2 - 50)))
 

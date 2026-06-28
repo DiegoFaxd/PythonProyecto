@@ -41,7 +41,7 @@ class Mapa:
         self.img_piso = None
         self.img_fondo = None
 
-        self.pos_salida = (15, 23)  # Posición de la salida
+        self.pos_salida = (15, 23)  
         
         self.llaves, self.pos_salida = self.generar_llaves_y_salida(
             cantidad_llaves=3,
