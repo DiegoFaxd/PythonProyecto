@@ -30,7 +30,6 @@ class Mapa:
             [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
         ]
         
-        # Cálculo dinámico del tamaño según las dimensiones de la matriz
         self.columnas = len(self.matriz[0])
         self.filas = len(self.matriz)
         self.ancho_total = self.columnas * TAM_CASILLA
@@ -42,7 +41,6 @@ class Mapa:
         self.img_piso = None
         self.img_fondo = None
 
-        #LLAVES
         self.pos_salida = (15, 23)  # Posición de la salida
         
         self.llaves, self.pos_salida = self.generar_llaves_y_salida(
@@ -51,7 +49,6 @@ class Mapa:
             pos_zombi=(7, 13)
         )
         
-        # 1. CARGAR Y ADAPTAR SPRITES AL NUEVO TAMAÑO
         ruta_muro = os.path.join(base_dir, "recursos", "sprites", "muro2.jpg")
         if os.path.exists(ruta_muro):
             try:
@@ -73,11 +70,9 @@ class Mapa:
         if os.path.exists(ruta_fondo):
             try:
                 self.img_fondo = pygame.image.load(ruta_fondo).convert()
-                # Escalamos el fondo automáticamente al nuevo tamaño total calculado
                 self.img_fondo = pygame.transform.scale(self.img_fondo, (self.ancho_total, self.alto_total))
             except: pass
 
-        # 2. PRE-RENDERIZADO AJUSTADO
         self.superficie_estatica = pygame.Surface((self.ancho_total, self.alto_total))
         self.pre_renderizar_mapa()
 
@@ -132,18 +127,15 @@ class Mapa:
             if self.matriz[f][c] == 0 and (f, c) not in excluir_base
         ]
 
-        # Intentar hasta encontrar una combinación alcanzable
         for _ in range(200):
             seleccion = random.sample(celdas_libres, cantidad_llaves + 1)
             llaves = seleccion[:cantidad_llaves]
             salida = seleccion[cantidad_llaves]
 
-            # Validar que todas las celdas sean alcanzables desde el jugador con BFS
             puntos_a_validar = llaves + [salida]
             if all(self.hay_camino(pos_jugador, p) for p in puntos_a_validar):
                 return llaves, salida
 
-        # Fallback: posiciones fijas seguras si no encuentra combinación válida
         return [(1, 5), (9, 11), (15, 5)], (15, 23)
 
     def hay_camino(self, origen, destino):

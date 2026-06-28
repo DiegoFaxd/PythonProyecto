@@ -42,7 +42,7 @@ def main():
 
     while True:
         if menu.ejecutar():
-            # Bucle de partidas (para poder reintentar)
+            
             while True:
                 resultado = ejecutar_juego(pantalla, reloj)
                 
@@ -186,14 +186,12 @@ def ejecutar_juego(pantalla, reloj):
 
         mapa.dibujar(pantalla)
 
-        # Dibujar salida
         sx = pos_salida[1] * 50
         sy = pos_salida[0] * 50
         pygame.draw.rect(pantalla, (0, 200, 0), (sx, sy, 50, 50))         # verde
         texto_salida = fuente_exit.render("EXIT", False, (255, 255, 255))
         pantalla.blit(texto_salida, (sx + 4, sy + 16))
 
-        # Dibujar llaves restantes
         for (lf, lc) in llaves:
             lx = lc * 50
             ly = lf * 50
@@ -207,12 +205,10 @@ def ejecutar_juego(pantalla, reloj):
 
         pantalla.blit(texto_llaves, (10, 10))
 
-        # Mensaje si intenta salir sin todas las llaves
         if pos_tuple == pos_salida and len(llaves) > 0:
             aviso = fuente_hud.render("¡No recolectaste todas las llaves!", False, (255, 80, 80))
             pantalla.blit(aviso, (ANCHO//2 - 180, 20))
 
-        # Aquí va el rastro visual de la ruta del zombi
         ruta_zombi = zombi.obtener_ruta()
         if len(ruta_zombi) > 1:
             superficie_ruta = pygame.Surface((ANCHO, ALTO), pygame.SRCALPHA)
@@ -225,7 +221,6 @@ def ejecutar_juego(pantalla, reloj):
                 
             pantalla.blit(superficie_ruta, (0, 0))
 
-        # Y el zombi se dibuja normalmente justo después
         zombi.dibujar(pantalla)
         
         if not estado_gameover:
@@ -246,7 +241,6 @@ def ejecutar_juego(pantalla, reloj):
             boton_reintentar.dibujar(pantalla)
             boton_menu.dibujar(pantalla)
 
-        # Al dibujar:
         if estado_victoria:
             superficie_oscura = pygame.Surface((ANCHO, ALTO), pygame.SRCALPHA)
             superficie_oscura.fill((0, 0, 0, 160))

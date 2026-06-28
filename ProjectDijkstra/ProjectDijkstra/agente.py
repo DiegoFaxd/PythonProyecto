@@ -19,7 +19,6 @@ class Agente:
         if os.path.exists(ruta_zombi):
             try:
                 self.img_zombi = pygame.image.load(ruta_zombi).convert_alpha()
-                #Escalado de 40x40 a 50x50 para que encaje en el nuevo mapa
                 self.img_zombi = pygame.transform.scale(self.img_zombi, (50, 50))
             except: pass
 
