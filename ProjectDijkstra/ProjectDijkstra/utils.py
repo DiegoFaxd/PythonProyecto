@@ -2,6 +2,8 @@ import os
 import sys
 
 def resource_path(relative_path):
+    # Esta función permite que el juego siga encontrando los archivos gráficos y de sonido
+    # incluso si lo compilamos más adelante en un archivo ejecutable (.exe).
     try:
         base_path = sys._MEIPASS
     except Exception:

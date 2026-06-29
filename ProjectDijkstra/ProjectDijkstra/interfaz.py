@@ -6,7 +6,7 @@ ANCHO = 1250
 ALTO = 850
 COLOR_FONDO = (35, 35, 35)
 COLOR_BOTON = (50, 140, 220)
-COLOR_BOTON_HOVER = (70, 170, 255)
+COLOR_BOTON_HOVER = (70, 170, 255) # Color cuando pasas el mouse por encima
 COLOR_TEXTO = (255, 255, 255)
 
 pygame.font.init()
@@ -14,6 +14,7 @@ pygame.font.init()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RECURSOS_DIR = os.path.join(BASE_DIR, "recursos")
 
+# Manejo de fuentes personalizadas
 RUTA_FUENTE = os.path.join(RECURSOS_DIR, "fuentes", "PressStart2P-Regular.ttf")
 if os.path.exists(RUTA_FUENTE):
     FUENTE_TITULO = pygame.font.Font(RUTA_FUENTE, 32)
@@ -27,10 +28,12 @@ else:
 class Boton:
 
     def __init__(self, x, y, ancho, alto, texto):
+        # Creamos la zona interactiva del botón
         self.rect = pygame.Rect(x, y, ancho, alto)
         self.texto = texto
 
     def dibujar(self, pantalla):
+        # Cambia el color si el cursor del mouse choca con el rectángulo del botón
         mouse = pygame.mouse.get_pos()
         color = COLOR_BOTON_HOVER if self.rect.collidepoint(mouse) else COLOR_BOTON
 
@@ -39,16 +42,17 @@ class Boton:
         pantalla.blit(texto, texto.get_rect(center=self.rect.center))
 
     def clic(self, evento):
+        # Detecta si se hizo clic izquierdo (button 1) dentro de la zona del botón
         if evento.type == pygame.MOUSEBUTTONDOWN and evento.button == 1:
             return self.rect.collidepoint(evento.pos)
         return False
-
 
 class MenuPrincipal:
 
     def __init__(self, pantalla):
         self.pantalla = pantalla
         
+        # Posicionamos los botones centrados
         ancho_btn = 200
         alto_btn = 60
         x_centrado = (ANCHO - ancho_btn) // 2
@@ -65,11 +69,13 @@ class MenuPrincipal:
             except: pass
 
     def dibujar(self):
+        # Limpia y dibuja el fondo y los textos
         if self.img_fondo:
             self.pantalla.blit(self.img_fondo, (0, 0))
         else:
             self.pantalla.fill(COLOR_FONDO)
 
+        # Efecto de sombra sencillo para el título principal
         titulo_sombra = FUENTE_TITULO.render("Zombie IA - Dijkstra", False, (0, 0, 0))
         titulo = FUENTE_TITULO.render("Zombie IA - Dijkstra", False, COLOR_TEXTO)
 
@@ -84,6 +90,7 @@ class MenuPrincipal:
         pygame.display.flip()
 
     def ejecutar(self):
+        # Bucle infinito del menú hasta que el usuario elija algo
         while True:
             self.dibujar()
             for evento in pygame.event.get():
@@ -91,7 +98,7 @@ class MenuPrincipal:
                     pygame.quit()
                     sys.exit()
                 if self.boton_jugar.clic(evento):
-                    return True
+                    return True # Sale del menú y entra al juego
                 if self.boton_salir.clic(evento):
                     pygame.quit()
                     sys.exit()
